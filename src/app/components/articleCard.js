@@ -1,19 +1,18 @@
 import Link from "next/link";
 import styles from "../page.module.css";
+import { formatDateForArticle } from "./utils";
 
-export default function ArticleCard(props) {
+export default function ArticleCard({ blurb, id, image, date, title }) {
   return (
     <div className={styles.card}>
-      <img
-        className={styles.image}
-        src={props.image.url}
-        alt={props.image.alt}
-      />
+      <img className={styles.image} src={image.url} alt={image.alt} />
       <div className={styles.articleContent}>
-        <h2>{props.title}</h2>
-        <p className={styles.date}>{props.date}</p>
-        <p className={styles.blurb}>{props.blurb}</p>
-        <Link className={styles.link} href={`article/${props.id}`}>Read More</Link>
+        <h2>{title}</h2>
+        <p className={styles.date}>{formatDateForArticle(date)}</p>
+        <p className={styles.blurb}>{blurb}</p>
+        <Link className={styles.link} href={`article/${id}`}>
+          Read More
+        </Link>
       </div>
     </div>
   );
