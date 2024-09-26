@@ -1,6 +1,7 @@
 import data from "../../data.json";
 import { formatDateForArticle } from "@/app/components/utils";
 import styles from "../../page.module.css";
+import ArticleTextDisplay from "@/app/components/ArticleTextDisplay";
 
 export default function Article({ params }) {
   const slug = params.slug;
@@ -15,12 +16,12 @@ export default function Article({ params }) {
         }}
       >
         <h1>{articleData.title}</h1>
-        <p>{formatDateForArticle(articleData.publishedDate)}</p>
-        <p>{articleData.blurb}</p>
+        <p className={styles.date}>{formatDateForArticle(articleData.publishedDate)}</p>
+        <p className={styles.articleBlurb}>{articleData.blurb}</p>
       </div>
       <div className={styles.articlePageContentWrapper}>
         {articleData?.articleText?.map((paragraph, i) => (
-          <p key={i}>{paragraph.data}</p>
+          <ArticleTextDisplay key={i} data={paragraph.data} type={paragraph.type}/>
         ))}
       </div>
     </main>

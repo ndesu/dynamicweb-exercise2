@@ -26,7 +26,7 @@
       }
     ],
     "image": {
-      "url": "https://via.placeholder.com/2000x1200",
+      "url": "https://picsum.photos/seed/picsum/200/300",
       "alt": "A placeholder image"
     },
     "publishedDate": "Wed Sep 04 2019 17:04:38 GMT-0400"
@@ -58,7 +58,7 @@
       }
     ],
     "image": {
-      "url": "https://via.placeholder.com/2000x1200",
+      "url": "https://picsum.photos/200/300?grayscale",
       "alt": "A placeholder image"
     },
     "publishedDate": "Wed Sep 05 2019 10:04:38 GMT-0400"
@@ -90,7 +90,7 @@
       }
     ],
     "image": {
-      "url": "https://via.placeholder.com/2000x1200",
+      "url": "https://picsum.photos/id/29/200/300",
       "alt": "A placeholder image"
     },
     "publishedDate": "Wed Sep 06 2019 18:04:38 GMT-0400"
@@ -122,7 +122,7 @@
       }
     ],
     "image": {
-      "url": "https://via.placeholder.com/2000x1200",
+      "url": "https://picsum.photos/id/58/200/300",
       "alt": "A placeholder image"
     },
     "publishedDate": "Wed Aug 08 2019 12:04:38 GMT-0400"
@@ -154,7 +154,7 @@
       }
     ],
     "image": {
-      "url": "https://via.placeholder.com/2000x1200",
+      "url": "https://picsum.photos/id/70/200/300",
       "alt": "A placeholder image"
     },
     "publishedDate": "Wed Aug 10 2019 12:04:38 GMT-0400"
@@ -194,7 +194,7 @@
       }
     ],
     "image": {
-      "url": "https://via.placeholder.com/2000x1200",
+      "url": "https://picsum.photos/id/68/200/300",
       "alt": "A placeholder image"
     },
     "publishedDate": "Wed Aug 22 2019 17:04:38 GMT-0400"

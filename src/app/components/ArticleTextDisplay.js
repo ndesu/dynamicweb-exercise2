@@ -1,0 +1,16 @@
+import styles from "../page.module.css"
+
+export default function ArticleTextDisplay({data, type}) {
+    switch(type) {
+        case 'p':
+            return (<p className={styles.articleTextP}>{data}</p>)
+        case 'h2':
+            return (<h2>{data}</h2>)
+        case 'h3':
+            return (<h3>{data}</h3>)
+        case 'h4':
+            return (<h4>{data}</h4>)
+        default:
+            return (<p className={styles.articleTextP}>{data}</p>)
+    }
+}

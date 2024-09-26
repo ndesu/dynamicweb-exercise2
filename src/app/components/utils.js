@@ -21,3 +21,5 @@ export function formatDateForArticle(incomingDate) {
 
   return `${month} ${day}, ${year}`;
 }
+
+

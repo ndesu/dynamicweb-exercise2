@@ -20,9 +20,9 @@
 }
 
 .image {
-  height: auto;
   margin: 0 20px;
-  width: 250px;
+  height: 150px;
+  width: 550px;
 }
 
 .articleContent {
@@ -44,9 +44,19 @@
 
 .articlePageHeaderWrapper {
   background-size: cover;
-  padding: 100px;
+  padding: 50px 400px;
+  text-align: center;
 }
 
 .articlePageContentWrapper {
-  padding: 100px;
+  padding: 0px 400px;
+}
+
+.articleTextP {
+  margin: 20px 0;
+}
+
+.articleBlurb {
+  font-size: 20px;
+  margin: 20px 0;
 }
